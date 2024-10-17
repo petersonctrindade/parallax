@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1::selection, h2::selection, p::selection {
+    color: white;
+    background-color: green;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    /* margin-top: 20px; */
+}
+
+.parallax {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+#p1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/01/08/16/mother-board-5358837_1280.jpg);
+}
+
+#p2 {
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758_1280.jpg);
+}
+
+#p3 {
+   background-image: url(https://cdn.pixabay.com/photo/2020/06/18/22/06/circuit-5315089_1280.jpg); 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5f5;
+    padding: 1.5rem 15%;
+    gap: 2rem;
+}
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.box {
+    background-color: #f5f5f5f5;
+    padding: 20px;
+    width: 60%;
+    margin: 10px;
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+} */
