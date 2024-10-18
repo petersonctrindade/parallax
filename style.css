@@ -43,7 +43,8 @@ header {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 50vh;
+    height: 70vh;
 }
 
 #start {
@@ -116,6 +117,10 @@ footer {
     #p3 {
         padding: 0 2rem;
     }
+
+    section {
+        height: 60vh;
+    }
 }
 
 @media (max-width: 768px) {
@@ -129,5 +134,9 @@ footer {
 
     #p3 {
         padding: 0 4rem;
+    }
+
+    section {
+        height: 50vh;
     }
 }
