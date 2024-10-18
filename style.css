@@ -117,3 +117,17 @@ footer {
         padding: 0 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    #start {
+        padding: 0 4rem;
+    }
+
+    #p2 {
+        padding: 0 4rem;
+    }
+
+    #p3 {
+        padding: 0 4rem;
+    }
+}
